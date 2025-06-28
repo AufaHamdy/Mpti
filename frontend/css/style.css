@@ -1823,3 +1823,30 @@ footer#footer.section.section-grey {
 	margin-right: 10px;
 }
 
+.feature-box {
+  background: #ffffff;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 30px;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.icon-box {
+  background: #e8f4ee; /* hijau muda */
+  display: inline-flex;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;  
+}
+
+.feature-box h4{
+  margin-bottom: 15px;
+}
+
+.icon-box i {
+  color: #000; /* warna icon bisa pakai .text-primary juga */
+}
